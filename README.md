@@ -11,7 +11,7 @@ In this work, we proposed a novel statistical method to better utilize functiona
 1. Git clone the repository and install the package.
 
 ``` shell
-$ git clone https://github.com/xinyiyu/PALM.git
+$ git clone https://github.com/YangLabHKUST/PALM.git
 $ cd PALM
 $ conda env create -f environment.yml
 $ conda activate palm
@@ -103,16 +103,15 @@ rs7517401	1	1483010	0.349901	G	A	0.700699999999828	0.21465550994232505	0.0
 
 ## Reproducibility
 We provide the source codes for reproducing the experimental results of PALM. The 30 GWAS summary statistics and functional annotations in real data analysis can be downloaded [here](https://drive.google.com/file/d/15btr71PD1lI6oqrOtf_T-i8aZM0YCRaP/view?usp=sharing).
-+ [Simulation script](https://github.com/xinyiyu/PALM/blob/main/scripts/comparison_palm.py) and [simulation results](https://github.com/xinyiyu/PALM/blob/main/demos/simu_results.ipynb)
-+ [Supplemental simulation scripts](https://github.com/xinyiyu/PALM/blob/main/scripts/) and [supplemental simulation results](https://github.com/xinyiyu/PALM/blob/main/demos/suppl_results.ipynb)
-+ [Real data format](https://github.com/xinyiyu/PALM/blob/main/demos/real_data.ipynb) and [an example on real data](https://github.com/xinyiyu/PALM/blob/main/demos/real_example.ipynb)
-+ [Real data analysis script](https://github.com/xinyiyu/PALM/blob/main/scripts/real_palm.py) and [real data analysis results](https://github.com/xinyiyu/PALM/blob/main/demos/real_results.ipynb)
++ [Simulation script](https://github.com/YangLabHKUST/PALM/blob/main/scripts/comparison_palm.py) and [simulation results](https://github.com/YangLabHKUST/PALM/blob/main/demos/simu_results.ipynb)
++ [Supplemental simulation scripts](https://github.com/YangLabHKUST/PALM/blob/main/scripts/) and [supplemental simulation results](https://github.com/YangLabHKUST/PALM/blob/main/demos/suppl_results.ipynb)
++ [Real data format](https://github.com/YangLabHKUST/PALM/blob/main/demos/real_data.ipynb) and [an example on real data](https://github.com/YangLabHKUST/PALM/blob/main/demos/real_example.ipynb)
++ [Real data analysis script](https://github.com/YangLabHKUST/PALM/blob/main/scripts/real_palm.py) and [real data analysis results](https://github.com/YangLabHKUST/PALM/blob/main/demos/real_results.ipynb)
 
 ## Extension
-The prior model is a general framework which allows us to apply any appropriate method to fit the logit-scale prior probabilities of the SNP association status. In particular, the boosted trees can be replaced with a neural network. We also provide the implementation of network-based PALM with a 3-layer fully connected network. A demo on simulated data with network-based PALM can be found [here](https://github.com/xinyiyu/PALM/blob/main/demos/demo_nn.ipynb). 
+The prior model of PALM is a general framework which allows us to apply any appropriate method to fit the logit-scale prior probabilities of the SNP association status. In particular, the boosted trees can be replaced with a neural network. We also provide the implementation of network-based model with a 3-layer fully connected network. A demo on simulated data with network-based model can be found [here](https://github.com/YangLabHKUST/PALM/blob/main/demos/demo_nn.ipynb). 
 
-We have demonstrated with simulations in the paper that the performance of network-based PALM is sensitive to the network design and hyperparameters tuning (at least for the very simple multi-layer perceptron). Since network-based PALM is not robust in FDR control, we haven't apply it to real data. For risk variants prioritization, currently we suggest tree-based PALM. Further research is needed for the potential usage of neural network in genomic integrative analysis. 
+After conducting some simulations, we found that the performance of network-based model is sensitive to the network design and hyperparameters tuning (at least for the very simple multi-layer perceptron). Since network-based model is not robust in FDR control, we haven't apply it to real data. For risk variants prioritization, currently we suggest tree-based model. Further research is needed for the potential usage of neural network in genomic integrative analysis.
 
 ## Contact information
-
 Please contact Xinyi Yu (xyubl@connect.ust.hk) and Prof. Can Yang (macyang@ust.hk) if any enquiry.
