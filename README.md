@@ -115,4 +115,4 @@ We have demonstrated with simulations in the paper that the performance of netwo
 
 ## Contact information
 
-Please contact Xinyi Yu (xyubl@connect.ust.hk) if any enquiry.
+Please contact Xinyi Yu (xyubl@connect.ust.hk) and Prof. Can Yang (macyang@ust.hk) if any enquiry.
