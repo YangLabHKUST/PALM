@@ -109,9 +109,9 @@ We provide the source codes for reproducing the experimental results of PALM. Th
 + [Real data analysis script](https://github.com/YangLabHKUST/PALM/blob/main/scripts/real_palm.py) and [real data analysis results](https://github.com/YangLabHKUST/PALM/blob/main/demos/real_results.ipynb)
 
 ## Extension
-The prior model of PALM is a general framework which allows us to apply any appropriate method to fit the logit-scale prior probabilities of the SNP association status. In particular, the boosted trees can be replaced with a neural network. We also provide the implementation of network-based model with a 3-layer fully connected network. A demo on simulated data with network-based model can be found [here](https://github.com/YangLabHKUST/PALM/blob/main/demos/demo_nn.ipynb). 
+The prior model of PALM is a general framework which allows us to apply any appropriate method to fit the logit-scale prior probabilities of the SNP association status. For example, the boosted trees can be replaced with a neural network. We also provide the implementation of network-based model with a 3-layer fully connected network. A demo on simulated data with network-based model can be found [here](https://github.com/YangLabHKUST/PALM/blob/main/demos/demo_nn.ipynb). 
 
-After conducting some simulations, we found that the performance of network-based model is sensitive to the network design and hyperparameters tuning (at least for the very simple multi-layer perceptron). Since network-based model is not robust in FDR control, we haven't applied it to real data. For risk variants prioritization, currently we suggest tree-based model. Further research is needed for the potential usage of neural network in genomic integrative analysis.
+After conducting some simulations, we found that the performance of network-based model was sensitive to the network design and hyperparameters tuning (at least for the very simple multi-layer perceptron). Since network-based model is not robust in FDR control, we haven't applied it to real data. For risk variant prioritization, currently we suggest tree-based models. Further research is needed for the potential usage of neural network in genomic integrative analysis.
 
 ## Contact information
 Please contact Xinyi Yu (xyubl@connect.ust.hk) and Prof. Can Yang (macyang@ust.hk) if any enquiry.
