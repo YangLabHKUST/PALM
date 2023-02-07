@@ -113,5 +113,10 @@ The prior model of PALM is a general framework which allows us to apply any appr
 
 After conducting some simulations, we found that the performance of network-based model was sensitive to the network design and hyperparameters tuning (at least for the very simple multi-layer perceptron). Since network-based model is not robust in FDR control, we haven't applied it to real data. For risk variant prioritization, currently we suggest tree-based models. Further research is needed for the potential usage of neural network in genomic integrative analysis.
 
+
+# Reference
+<!--Xinyi Yu, Jiashun Xiao, Mingxuan Cai, Yuling Jiao, Xiang Wan, Jin Liu, Can Yang. PALM: A Powerful and Adaptive Latent Model for Prioritizing Risk Variants with Functional Annotations Bioinformatics.2023.-->
+Xinyi Yu, Jiashun Xiao, Mingxuan Cai, Yuling Jiao, Xiang Wan, Jin Liu, Can Yang. PALM: A Powerful and Adaptive Latent Model for Prioritizing Risk Variants with Functional Annotations Bioinformatics. 2023. doi: https://doi.org/10.1093/bioinformatics/btad068.
+
 ## Contact information
 Please contact Xinyi Yu (xyubl@connect.ust.hk) and Prof. Can Yang (macyang@ust.hk) if any enquiry.
