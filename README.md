@@ -102,7 +102,7 @@ rs7517401	1	1483010	0.349901	G	A	0.700699999999828	0.21465550994232505	0.0
 ```
 
 ## Reproducibility
-We provide the source codes for reproducing the experimental results of PALM. The 30 GWAS summary statistics and functional annotations in real data analysis can be downloaded [here](https://drive.google.com/file/d/15btr71PD1lI6oqrOtf_T-i8aZM0YCRaP/view?usp=sharing).
+We provide the source codes for reproducing the experimental results of PALM. The 30 GWAS summary statistics and functional annotations in real data analysis can be downloaded [here](https://drive.google.com/file/d/15cIDTt9b7laVEC7MCfV4JqwjupOi4nXg/view?usp=drive_link).
 + [Simulation script](https://github.com/YangLabHKUST/PALM/blob/main/scripts/comparison_palm.py) and [simulation results](https://github.com/YangLabHKUST/PALM/blob/main/demos/simu_results.ipynb)
 + [Supplemental simulation scripts](https://github.com/YangLabHKUST/PALM/blob/main/scripts/) and [supplemental simulation results](https://github.com/YangLabHKUST/PALM/blob/main/demos/suppl_results.ipynb)
 + [Real data format](https://github.com/YangLabHKUST/PALM/blob/main/demos/real_data.ipynb) and [an example on real data](https://github.com/YangLabHKUST/PALM/blob/main/demos/real_example.ipynb)
